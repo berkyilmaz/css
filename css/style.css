@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: rgb(255, 255, 255);
+}
+
+a {
+    text-decoration: none;
+    text-align: right;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+/*h2 {
+    color: black;
+    text-align: left;
+    text-align: justify;
+    text-align: start;
+    font-size:medium;
+}
+*/
+p {
+    color: rgb(185, 7, 7);
+    text-align: center;
+}
+
+.navigation-bar {
+    width: 100%;
+    /* i'm assuming full width */
+    height: 80px;
+    /* change it to desired width */
+    background-color: rgb(124, 4, 4);
+    /* change to desired color */
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+    /* if you want it vertically middle of the navbar. */
+}
+
+.nane {
+    width: 700px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation-bar>a {
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    /* if you want it to take the full height of the bar */
+    line-height: 80px;
+    /* if you want it vertically middle of the navbar */
+}
+
